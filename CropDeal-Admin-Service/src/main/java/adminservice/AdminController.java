@@ -27,7 +27,7 @@ public class AdminController {
 		
 		Farmer far1=restTemplate.getForObject("http://CropDeal-Farmer-Service/farmer", Farmer.class) ;
 				
-				return "from admin"+far1;
+				return "from 1 admin"+far1;
 		
 		
 	}
